@@ -25,3 +25,8 @@ to be used to toggle folding.
 
 In the rare situations you want to toggle folding, but you just jumped back from a location, you can use the
 `<S-Tab>` key combination to toggle folding.
+
+## Inspiration
+
+This plugin was inspired by [a Karabiner video by wincent](https://www.youtube.com/watch?v=YnLL9kUrWk0), in which he solves this same problem with Karabiner.
+I wanted to achieve a similar result using just Vimscript, so I came up with this plugin.
