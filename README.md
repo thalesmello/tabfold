@@ -21,7 +21,7 @@ In most other situtations, you are editing code and at the top of your jump list
 press the `<Tab>` key, you aren't going to jump anywhere. In those situations, it's possible to remap it
 to be used to toggle folding.
 
-## When there is conclict
+## When there is conflict
 
 In the rare situations you want to toggle folding, but you just jumped back from a location, you can use the
 `<S-Tab>` key combination to toggle folding.
