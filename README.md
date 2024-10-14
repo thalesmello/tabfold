@@ -26,6 +26,14 @@ to be used to toggle folding.
 In the rare situations you want to toggle folding, but you just jumped back from a location, you can use the
 `<S-Tab>` key combination to toggle folding.
 
+## Configuration
+
+By default, if the vim instance `has('gui_running')` it will only assign the toggle behavior to the `<Tab>` key, as some GUI clients are able to differenciate between `<C-I>` and `<Tab>`. In case your client doesn't properly differeciate between the two keys, you can enforce the toggle and fold `<Tab>` behavior with:
+
+```
+let g:tabfold_enforce_forward_or_toggle_fold = 1
+```
+
 ## Inspiration
 
 This plugin was inspired by [a Karabiner video by wincent](https://www.youtube.com/watch?v=YnLL9kUrWk0), in which he solves this same problem with Karabiner.
